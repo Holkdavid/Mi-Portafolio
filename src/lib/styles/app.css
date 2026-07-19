@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@fontsource/inter";
+@import "./variables.css";
+@import "./components.css";
+@import "./utilities.css";
+@import "./animations.css";

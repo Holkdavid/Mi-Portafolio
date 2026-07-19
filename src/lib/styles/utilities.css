@@ -1,0 +1,25 @@
+@layer utilities {
+    .glass-card {
+        @apply backdrop-blur-md bg-[var(--surface)]/40 border border-[var(--border)];
+    }
+
+    .section-padding {
+        @apply py-24 md:py-32;
+    }
+
+    .section-spacing {
+        @apply my-16 md:my-24;
+    }
+
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    .text-gradient {
+        @apply bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent;
+    }
+
+    .shadow-glow {
+        box-shadow: var(--shadow-glow);
+    }
+}

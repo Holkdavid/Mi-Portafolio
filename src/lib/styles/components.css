@@ -1,0 +1,64 @@
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center font-medium transition-all duration-300;
+        border-radius: var(--radius-md);
+    }
+
+    .btn-primary {
+        @apply inline-flex items-center justify-center font-medium transition-all duration-300 text-white;
+        border-radius: var(--radius-md);
+        background: var(--primary);
+    }
+
+    .btn-primary:hover {
+        background: #1d4ed8; /* Un tono más oscuro nativo de Tailwind */
+        box-shadow: 0 0 24px rgba(37, 99, 235, .45);
+    }
+
+    .btn-secondary {
+        @apply inline-flex items-center justify-center font-medium transition-all duration-300 border;
+        border-radius: var(--radius-md);
+        background: var(--surface);
+        border-color: var(--border);
+        color: var(--text);
+    }
+
+    .btn-secondary:hover {
+        @apply border-[var(--text-secondary)];
+    }
+
+    .btn-ghost {
+        @apply inline-flex items-center justify-center font-medium transition-all duration-300;
+        border-radius: var(--radius-md);
+        color: var(--text-secondary);
+    }
+
+    .btn-ghost:hover {
+        @apply bg-[var(--surface)] text-[var(--text)];
+    }
+
+    .card {
+        @apply border shadow-xl;
+        background: var(--surface);
+        border-color: var(--border);
+        border-radius: var(--radius-md);
+    }
+
+    .card-hover {
+        @apply transition-all duration-300;
+    }
+
+    .card-hover:hover {
+        transform: translateY(-4px);
+        border-color: var(--text-secondary);
+        box-shadow: var(--shadow-glow);
+    }
+
+    .badge {
+        @apply inline-flex items-center rounded-full text-xs font-medium;
+    }
+
+    .brand-logo {
+        @apply flex items-center justify-center rounded-xl font-bold;
+    }
+}
