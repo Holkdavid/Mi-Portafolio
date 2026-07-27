@@ -19,6 +19,6 @@ export const certificates: Certificate[] = [
     hours: 159,
     description:
       "Bootcamp intensivo de programación del programa Talento Tech, iniciativa del Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC) de Colombia, desarrollado en alianza con la Universidad Libre y la empresa Etraining.",
-    image: "/images/certificates/talento-tech-programacion-basico.webp"
+    image: "/images/certificates/tech-programacion-basico.webp"
   }
 ];
