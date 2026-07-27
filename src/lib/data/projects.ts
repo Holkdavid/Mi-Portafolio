@@ -41,7 +41,7 @@ export const projects: Project[] = [
       '/images/projects/optistock/reportes-ganancias.webp',
       '/images/projects/optistock/reportes-medio-pago.webp'
     ],
-    technologies: ['Flutter', 'Dart'],
+    technologies: ['Flutter', 'Dart', 'MySQL'],
     features: ['Registro de productos', 'Control de existencias', 'Aplicación móvil Android'],
     // links.github: aún no subido a GitHub
     links: {
