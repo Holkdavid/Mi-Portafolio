@@ -7,7 +7,7 @@ export const projects: Project[] = [
     title: 'OptiStock',
     shortDescription: 'Sistema de gestión de inventario para tiendas de barrio.',
     fullDescription:
-      'OptiStock es una aplicación de escritorio desarrollada para mejorar el control de inventario en tiendas de barrio, permitiendo registrar productos, gestionar entradas y salidas de mercancía y facilitar la toma de decisiones mediante una interfaz intuitiva.',
+      'OptiStock es una aplicación Android desarrollada en Flutter para mejorar el control de inventario en tiendas de barrio, permitiendo registrar productos, gestionar entradas y salidas de mercancía y facilitar la toma de decisiones mediante una interfaz intuitiva.',
     image: '/images/projects/optistock/inicio-con-ventas.webp',
     gallery: [
       '/images/projects/optistock/login-1.webp',
@@ -41,8 +41,8 @@ export const projects: Project[] = [
       '/images/projects/optistock/reportes-ganancias.webp',
       '/images/projects/optistock/reportes-medio-pago.webp'
     ],
-    technologies: ['Java', 'Swing', 'MySQL'],
-    features: ['Registro de productos', 'Control de existencias', 'Interfaz gráfica en Java Swing'],
+    technologies: ['Flutter', 'Dart'],
+    features: ['Registro de productos', 'Control de existencias', 'Aplicación móvil Android'],
     // links.github: aún no subido a GitHub
     links: {
       figma:
