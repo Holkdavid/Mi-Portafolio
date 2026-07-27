@@ -13,9 +13,9 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: "2024",
-    title: "Bootcamp Talento Tech – Desarrollo Web con HTML",
+    title: "Bootcamp Talento Tech – Programación Básico",
     description:
-      "Completé el bootcamp de Desarrollo Web con HTML del programa Talento Tech, una iniciativa pública del Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC) de Colombia, orientada a fortalecer competencias digitales para el sector tecnológico."
+      "Completé el Bootcamp de Programación Básico (159 horas) del programa Talento Tech, una iniciativa pública del Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC) de Colombia, orientada a fortalecer competencias digitales para el sector tecnológico."
   },
   {
     year: "2025",
