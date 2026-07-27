@@ -6,7 +6,9 @@
   import { profile } from '$lib/data/profile';
 
   // 🧠 Nada de números quemados: todo se calcula a partir de /lib/data.
-  const yearsFormation = new Date().getFullYear() - profile.startYear;
+  // +1 porque el conteo es inclusivo: iniciar en 2023 significa estar en el
+  // 4.º año de formación durante 2026 (coincide con el 8.º semestre).
+  const yearsFormation = new Date().getFullYear() - profile.startYear + 1;
 
   const stats = [
     { value: projects.length, label: projects.length === 1 ? 'Proyecto' : 'Proyectos' },
