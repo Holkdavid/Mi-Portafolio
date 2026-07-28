@@ -27,7 +27,7 @@
     <span class="font-semibold text-[var(--text)]">{semesterToOrdinal(profile.semester)}{profile.isLastSemester ? ' y último' : ''} semestre</span>
     de {profile.degree} en la
     <span class="font-semibold text-[var(--text)]">{profile.university}</span>,
-    donde he desarrollado proyectos utilizando Java, SvelteKit, HTML, CSS, JavaScript y bases de datos MySQL.
+    donde me he enfocado en el desarrollo <span class="font-semibold text-[var(--text)]">frontend</span> con SvelteKit, JavaScript, HTML y CSS, complementándolo con backend en Java y bases de datos MySQL.
   </p>
 
 </div>

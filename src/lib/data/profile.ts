@@ -5,8 +5,8 @@ export const profile: Profile = {
   lastName: "González",
   fullName: "Holman David González Cantillo",
   headline: "Estudiante de Ingeniería de Sistemas",
-  // Ajuste honesto: "experiencia académica"
-  description: "Estudiante de Ingeniería de Sistemas con experiencia académica en el desarrollo backend con Java y en la creación de aplicaciones web. Me apasiona construir soluciones funcionales, aprender nuevas tecnologías y seguir fortaleciendo mis habilidades como desarrollador.",
+  // Enfoque: apasionado por el frontend, con base sólida en backend.
+  description: "Estudiante de Ingeniería de Sistemas apasionado por el desarrollo frontend y la creación de interfaces web modernas, cuidadas y funcionales. También cuento con experiencia académica en backend con Java, lo que me permite entender las aplicaciones de principio a fin. Me motiva aprender nuevas tecnologías y construir experiencias de usuario de calidad.",
   degree: "Ingeniería de Sistemas",
   university: "Universidad Libre",
   semester: 8,

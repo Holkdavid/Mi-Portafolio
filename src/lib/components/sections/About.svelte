@@ -12,13 +12,13 @@
   import GraduationCap from '@lucide/svelte/icons/graduation-cap';
   import MapPin from '@lucide/svelte/icons/map-pin';
   import Briefcase from '@lucide/svelte/icons/briefcase';
-  import Coffee from '@lucide/svelte/icons/coffee';
+  import Palette from '@lucide/svelte/icons/palette';
 
   const quickFacts = [
     { icon: GraduationCap, label: profile.university },
     { icon: MapPin, label: profile.city },
     { icon: Briefcase, label: 'Disponible para prácticas' },
-    { icon: Coffee, label: 'Apasionado por Java' }
+    { icon: Palette, label: 'Enfocado en Frontend' }
   ];
 </script>
 
@@ -45,15 +45,17 @@
         </p>
 
         <p class="text-lg leading-8 text-[var(--text-secondary)]">
-          Durante mi formación académica he desarrollado proyectos utilizando
-          Java, MySQL, HTML, CSS, JavaScript y SvelteKit, fortaleciendo mis
-          habilidades en el desarrollo de aplicaciones web y de escritorio.
+          Durante mi formación académica me he enfocado en el desarrollo
+          <span class="font-semibold text-[var(--text)]">frontend</span> con HTML, CSS, JavaScript y SvelteKit,
+          complementándolo con backend en Java y bases de datos MySQL en
+          proyectos web y móviles.
         </p>
 
         <p class="text-lg leading-8 text-[var(--text-secondary)]">
-          Me apasiona construir software de calidad, aprender nuevas
-          tecnologías y afrontar desafíos que me permitan crecer como
-          desarrollador.
+          Me apasiona especialmente el <span class="font-semibold text-[var(--text)]">frontend</span>: crear
+          interfaces atractivas, accesibles y bien construidas. Disfruto
+          aprender nuevas tecnologías y afrontar desafíos que me permitan
+          crecer como desarrollador.
         </p>
 
         <!-- Tarjetas rápidas de información -->
