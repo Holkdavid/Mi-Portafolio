@@ -1,5 +1,5 @@
 export const roles: string[] = [
-  "Backend Developer",
-  "Java Developer",
-  "Web Application Developer" // Más específico y profesional
+  "Frontend Developer",
+  "Desarrollador Web",
+  "Backend con Java"
 ];

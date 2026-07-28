@@ -27,8 +27,8 @@
 <header 
   class="fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300 border-b
   {isScrolled.value 
-    ? 'bg-[var(--background)]/75 backdrop-blur-md border-[var(--border)] shadow-lg shadow-black/5' 
-    : 'bg-transparent border-transparent'}"
+    ? 'bg-[var(--background)]/80 backdrop-blur-md border-[var(--border)] shadow-lg shadow-black/20' 
+    : 'bg-[var(--background)]/40 backdrop-blur-sm border-[var(--border)]/40'}"
 >
   <Container size="xl">
     <div class="flex h-16 items-center justify-between">
@@ -49,7 +49,7 @@
             class="px-4 py-2 text-sm font-medium rounded-[var(--radius-sm)] transition-colors relative no-underline
             { activeSection.id === item.id 
               ? 'text-[var(--text)] font-semibold' 
-              : 'text-[var(--text-secondary)] hover:text-[var(--text)]' }"
+              : 'text-[var(--text-secondary)] hover:text-[var(--text)] hover:bg-[var(--surface)]/60' }"
           >
             {item.label}
             <!-- Barra sutil inferior interactiva estilo Vercel -->
